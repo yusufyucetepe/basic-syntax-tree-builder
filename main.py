@@ -20,7 +20,7 @@ if __name__ == "__main__":
         render_anytree(tree)
         print("\n✓ Syntax Tree Generated.\n")
     else:
-        # Detect trailing adverbs — common cause is post-verbal AdvP which current grammar doesn't accept
+        # Detect trailing adverbs
         trailing_advs = []
         i = len(tokens) - 1
 

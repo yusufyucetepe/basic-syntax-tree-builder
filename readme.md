@@ -4,7 +4,7 @@ This project is a simple syntax tree builder for English sentences, executed in 
 The goal of the project is to demonstrate basic syntatic trees to beginners, showing how syntax trees are built with X-bar theory.
 
 # Features
-- Right side supported recursion
+- Only right side supported recursion 
 - Simple English grammar (NP, VP, AdvP, AdjP, Det)
 - Text-based syntax tree rendering
 - X-bar theory embedded to the grammar
