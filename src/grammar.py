@@ -8,7 +8,6 @@ GRAMMAR = {
     
     # ---------- VERB PHRASE ----------
     "VP": [["V'"]],
-    # allow post-verbal adverbs and prefer matching AdvP after V when present
     "V'": [["V", "NP", "V'"], ["V", "NP"], ["V"], ["AdvP", "V'"]],
 
     # ---------- ADJECTIVE & ADVERB PHRASES ----------
