@@ -37,5 +37,8 @@ def parse(tokens, lexicon, grammar, start_symbol="S"):
             return None, remaining_tokens
         return None, remaining_tokens
 
-    tree, _ = expand(start_symbol, tokens)
+    tree, remaining = expand(start_symbol, tokens)
+    if remaining:
+        # A partial parse (leftover tokens) is not a valid sentence
+        return None
     return tree
