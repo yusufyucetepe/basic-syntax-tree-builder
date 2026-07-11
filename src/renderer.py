@@ -30,10 +30,11 @@ def build_anytree(node, parent=None):
     for c in children:
         build_anytree(c, nd)
     # Specifier: visually printed as '∅' when the category has a spec
-    # slot in CATEGORY_SCHEMA but no child fills it
+    # slot in CATEGORY_SCHEMA but no child fills it. Specifiers precede
+    # the head in this grammar, so it goes in first position.
     if _needs_empty_spec(label, nd.children):
         if not any(getattr(c, 'name', '') == '∅' for c in nd.children):
-            Node('∅', parent=nd)
+            nd.children = (Node('∅'),) + nd.children
     return nd
 
 def render_anytree(node):

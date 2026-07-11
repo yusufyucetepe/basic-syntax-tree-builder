@@ -1,5 +1,6 @@
 from src.parser import parse
 from src.renderer import render_anytree
+from src.svg_renderer import render_svg
 from src.utilities import tokenize, get_category
 from src.grammar import GRAMMAR
 from src.lexicon import LEXICON
@@ -18,7 +19,8 @@ if __name__ == "__main__":
 
     if tree:
         render_anytree(tree)
-        print("\n✓ Syntax Tree Generated.\n")
+        svg_path = render_svg(tree)
+        print(f"\n✓ Syntax Tree Generated. Diagram saved to {svg_path}\n")
     else:
         # Detect trailing adverbs
         trailing_advs = []
