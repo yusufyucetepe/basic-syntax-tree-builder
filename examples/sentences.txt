@@ -4,3 +4,7 @@ big dog sat
 the big dog sat
 the big dog slowly sat
 the small cat chased the dog
+the cat sat on the mat
+the dog on the mat sat
+the small cat chased the dog under the house
+the cat sat on the mat in the house

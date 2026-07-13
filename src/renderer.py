@@ -5,8 +5,9 @@ from src.grammar import CATEGORY_SCHEMA
 def _needs_empty_spec(label, children):
     if not isinstance(label, str) or not label.endswith('P'):
         return False
-    # label[:-1] maps "NP"→"N", "AdjP"→"Adj", etc. A future category named
-    # "P" (whose XP is "PP") would need this lookup revisited.
+    # label[:-1] maps "NP"→"N", "AdjP"→"Adj", and "PP"→"P". A bare "P" head
+    # label maps to "" (no schema entry), so it's skipped like other heads.
+    # Safe while P has no spec; revisit if it ever gets one.
     cfg = CATEGORY_SCHEMA.get(label[:-1])
     if not cfg or not cfg['spec']:
         return False
