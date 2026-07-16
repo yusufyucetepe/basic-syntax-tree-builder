@@ -8,3 +8,6 @@ the cat sat on the mat
 the dog on the mat sat
 the small cat chased the dog under the house
 the cat sat on the mat in the house
+the dog sat quickly
+the dog chased the cat quickly
+the cat sat on the mat quickly

@@ -5,7 +5,8 @@ The goal of the project is to demonstrate basic syntatic trees to beginners, sho
 
 # Features
 - Only right side supported recursion 
-- Simple English grammar (NP, VP, AdvP, AdjP, Det)
+- Simple English grammar (NP, VP, PP, AdvP, AdjP, Det)
+- Post-verbal modifiers: PPs and adverbs after the verb (e.g. "the cat sat on the mat quickly")
 - Text-based syntax tree rendering
 - SVG tree diagram output (saved as tree.svg, no extra dependencies)
 - X-bar theory embedded to the grammar
