@@ -3,6 +3,15 @@ This project is a simple syntax tree builder for English sentences, executed in 
 
 The goal of the project is to demonstrate basic syntatic trees to beginners, showing how syntax trees are built with X-bar theory.
 
+# Examples
+**"the small cat chased the dog"** — a transitive verb with its NP complement; the adjective left-adjoins to N':
+
+![Syntax tree for "the small cat chased the dog"](examples/tree_transitive.svg)
+
+**"the cat sat on the mat quickly"** — post-verbal modifiers: the PP and the AdvP both attach under V':
+
+![Syntax tree for "the cat sat on the mat quickly"](examples/tree_postverbal.svg)
+
 # Features
 - Only right side supported recursion 
 - Simple English grammar (NP, VP, PP, AdvP, AdjP, Det)
