@@ -8,10 +8,6 @@ The goal of the project is to demonstrate basic syntatic trees to beginners, sho
 
 ![Syntax tree for "the small cat chased the dog"](examples/tree_transitive.svg)
 
-**"the cat sat on the mat quickly"** — post-verbal modifiers: the PP and the AdvP both attach under V':
-
-![Syntax tree for "the cat sat on the mat quickly"](examples/tree_postverbal.svg)
-
 # Features
 - Only right side supported recursion 
 - Simple English grammar (NP, VP, PP, AdvP, AdjP, Det)
