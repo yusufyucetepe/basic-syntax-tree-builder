@@ -8,10 +8,14 @@ The goal of the project is to demonstrate basic syntatic trees to beginners, sho
 
 ![Syntax tree for "the small cat chased the dog"](examples/tree_transitive.svg)
 
+**"the cat sat on the mountain quickly"** — an intransitive verb with a post-verbal PP and adverb right-adjoined to V':
+
+![Syntax tree for "the cat sat on the mountain quickly"](examples/tree_postverbal.svg)
+
 # Features
 - Only right side supported recursion 
 - Simple English grammar (NP, VP, PP, AdvP, AdjP, Det)
-- Post-verbal modifiers: PPs and adverbs after the verb (e.g. "the cat sat on the mat quickly")
+- Post-verbal modifiers: PPs and adverbs after the verb (e.g. "the cat sat on the mountain quickly")
 - Text-based syntax tree rendering
 - SVG tree diagram output (saved as tree.svg, no extra dependencies)
 - X-bar theory embedded to the grammar
