@@ -1,4 +1,4 @@
-# Basic Syntax Tree Builder
+# X-Bar Syntax Tree Builder
 This project is a simple syntax tree builder for English sentences, executed in Python. It uses a small lexicon and a hand-written grammar inspired by X-bar theory to parse basic sentence structures and display their syntax trees.
 
 The goal of the project is to demonstrate basic syntatic trees to beginners, showing how syntax trees are built with X-bar theory.
