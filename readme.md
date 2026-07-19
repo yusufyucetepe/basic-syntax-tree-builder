@@ -8,6 +8,10 @@ The goal of the project is to demonstrate basic syntatic trees to beginners, sho
 
 ![Syntax tree for "the small cat chased the dog"](examples/tree_transitive.svg)
 
+**"every clever child arrived on the mountain"** — an intransitive verb with a post-verbal PP right-adjoined to V':
+
+![Syntax tree for "every clever child arrived on the mountain"](examples/tree_postverbal.svg)
+
 **"the small dog behind the ancient castle slowly chased my curious cat"** — a pre-verbal adverb left-adjoined to V'; the PP nests inside the subject NP:
 
 ![Syntax tree for "the small dog behind the ancient castle slowly chased my curious cat"](examples/tree_preverbal.svg)

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="543" height="576" viewBox="0 0 543 576" font-family="Georgia, serif" font-size="16" text-anchor="middle">
+<rect width="100%" height="100%" fill="white"/>
+<text x="46.5" y="232.0" font-style="italic" fill="#555">every</text>
+<line x1="46.5" y1="173.0" x2="46.5" y2="216.0" stroke="#333" stroke-width="1"/>
+<text x="46.5" y="168.0" fill="#111">D</text>
+<text x="120.0" y="424.0" font-style="italic" fill="#555">clever</text>
+<line x1="120.0" y1="365.0" x2="120.0" y2="408.0" stroke="#333" stroke-width="1"/>
+<text x="120.0" y="360.0" fill="#111">Adj</text>
+<line x1="120.0" y1="301.0" x2="120.0" y2="344.0" stroke="#333" stroke-width="1"/>
+<text x="120.0" y="296.0" fill="#111">Adj'</text>
+<line x1="120.0" y1="237.0" x2="120.0" y2="280.0" stroke="#333" stroke-width="1"/>
+<text x="120.0" y="232.0" fill="#111">AdjP</text>
+<text x="193.5" y="360.0" font-style="italic" fill="#555">child</text>
+<line x1="193.5" y1="301.0" x2="193.5" y2="344.0" stroke="#333" stroke-width="1"/>
+<text x="193.5" y="296.0" fill="#111">N</text>
+<line x1="193.5" y1="237.0" x2="193.5" y2="280.0" stroke="#333" stroke-width="1"/>
+<text x="193.5" y="232.0" fill="#111">N'</text>
+<line x1="156.8" y1="173.0" x2="120.0" y2="216.0" stroke="#333" stroke-width="1"/>
+<line x1="156.8" y1="173.0" x2="193.5" y2="216.0" stroke="#333" stroke-width="1"/>
+<text x="156.8" y="168.0" fill="#111">N'</text>
+<line x1="101.6" y1="109.0" x2="46.5" y2="152.0" stroke="#333" stroke-width="1"/>
+<line x1="101.6" y1="109.0" x2="156.8" y2="152.0" stroke="#333" stroke-width="1"/>
+<text x="101.6" y="104.0" fill="#111">NP</text>
+<text x="271.5" y="296.0" font-style="italic" fill="#555">arrived</text>
+<line x1="271.5" y1="237.0" x2="271.5" y2="280.0" stroke="#333" stroke-width="1"/>
+<text x="271.5" y="232.0" fill="#111">V</text>
+<text x="345.0" y="424.0" font-style="italic" fill="#555">on</text>
+<line x1="345.0" y1="365.0" x2="345.0" y2="408.0" stroke="#333" stroke-width="1"/>
+<text x="345.0" y="360.0" fill="#111">P</text>
+<text x="405.0" y="488.0" font-style="italic" fill="#555">the</text>
+<line x1="405.0" y1="429.0" x2="405.0" y2="472.0" stroke="#333" stroke-width="1"/>
+<text x="405.0" y="424.0" fill="#111">D</text>
+<text x="483.0" y="552.0" font-style="italic" fill="#555">mountain</text>
+<line x1="483.0" y1="493.0" x2="483.0" y2="536.0" stroke="#333" stroke-width="1"/>
+<text x="483.0" y="488.0" fill="#111">N</text>
+<line x1="483.0" y1="429.0" x2="483.0" y2="472.0" stroke="#333" stroke-width="1"/>
+<text x="483.0" y="424.0" fill="#111">N'</text>
+<line x1="444.0" y1="365.0" x2="405.0" y2="408.0" stroke="#333" stroke-width="1"/>
+<line x1="444.0" y1="365.0" x2="483.0" y2="408.0" stroke="#333" stroke-width="1"/>
+<text x="444.0" y="360.0" fill="#111">NP</text>
+<line x1="394.5" y1="301.0" x2="345.0" y2="344.0" stroke="#333" stroke-width="1"/>
+<line x1="394.5" y1="301.0" x2="444.0" y2="344.0" stroke="#333" stroke-width="1"/>
+<text x="394.5" y="296.0" fill="#111">P'</text>
+<line x1="394.5" y1="237.0" x2="394.5" y2="280.0" stroke="#333" stroke-width="1"/>
+<text x="394.5" y="232.0" fill="#111">PP</text>
+<line x1="333.0" y1="173.0" x2="271.5" y2="216.0" stroke="#333" stroke-width="1"/>
+<line x1="333.0" y1="173.0" x2="394.5" y2="216.0" stroke="#333" stroke-width="1"/>
+<text x="333.0" y="168.0" fill="#111">V'</text>
+<line x1="333.0" y1="109.0" x2="333.0" y2="152.0" stroke="#333" stroke-width="1"/>
+<text x="333.0" y="104.0" fill="#111">VP</text>
+<line x1="217.3" y1="45.0" x2="101.6" y2="88.0" stroke="#333" stroke-width="1"/>
+<line x1="217.3" y1="45.0" x2="333.0" y2="88.0" stroke="#333" stroke-width="1"/>
+<text x="217.3" y="40.0" fill="#111">S</text>
+</svg>
